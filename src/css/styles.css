@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+div {
+  display: block;
+  margin: auto;
+}
+
+body {
+  background-color: white;
+  font-size: 1.25rem;
+  line-height: auto;
+  color: #666666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  border: 4px black;
+}
+
+span {
+  font-weight: 700;
+}
